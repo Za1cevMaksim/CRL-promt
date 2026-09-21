@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated coursework."
+title: "Contrastive learning for automated prompt selection for language models in dialogue systems"
+type: software
+authors:
+  - family-names: "Зайцев"
+    given-names: "Максим Александрович"
+year: 2026
+version: 1.0.0
+

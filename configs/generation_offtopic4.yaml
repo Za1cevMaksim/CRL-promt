@@ -1,0 +1,23 @@
+name: contrast_offtopic4
+task: response_generation
+model_name: Qwen/Qwen2.5-3B
+output_dir: outputs/ablations/generation_offtopic4
+train_size: 6000
+validation_size: 200
+test_size: 500
+reward_size: 600
+max_source_length: 128
+max_target_length: 48
+max_new_tokens: 48
+epochs: 4
+batch_size: 8
+evaluation_batch_size: 8
+learning_rate: 0.0005
+warmup_steps: 200
+contrast_mode: offtopic4
+contrast_weight: 0.1
+contrast_temperature: 0.5
+contrast_negatives: 4
+rl_mode: none
+automatic_rl_weight: false
+

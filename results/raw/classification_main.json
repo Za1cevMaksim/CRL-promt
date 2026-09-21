@@ -1,0 +1,123 @@
+{
+  "per_seed": [
+    {
+      "seed": 42,
+      "MLE-only": 0.63,
+      "MLE-only-verb": 0.614,
+      "contrast-mask": 0.616,
+      "contrast-mask-verb": 0.626,
+      "contrast-wronglabel": 0.622,
+      "contrast-wronglabel-verb": 0.632,
+      "RL-only": 0.632,
+      "RL-only-verb": 0.632,
+      "Full-CRL": 0.61,
+      "Full-CRL-verb": 0.608
+    },
+    {
+      "seed": 43,
+      "MLE-only": 0.622,
+      "MLE-only-verb": 0.632,
+      "contrast-mask": 0.622,
+      "contrast-mask-verb": 0.63,
+      "contrast-wronglabel": 0.624,
+      "contrast-wronglabel-verb": 0.614,
+      "RL-only": 0.63,
+      "RL-only-verb": 0.64,
+      "Full-CRL": 0.626,
+      "Full-CRL-verb": 0.62
+    },
+    {
+      "seed": 44,
+      "MLE-only": 0.6,
+      "MLE-only-verb": 0.614,
+      "contrast-mask": 0.638,
+      "contrast-mask-verb": 0.628,
+      "contrast-wronglabel": 0.622,
+      "contrast-wronglabel-verb": 0.618,
+      "RL-only": 0.622,
+      "RL-only-verb": 0.624,
+      "Full-CRL": 0.608,
+      "Full-CRL-verb": 0.622
+    },
+    {
+      "seed": 45,
+      "MLE-only": 0.628,
+      "MLE-only-verb": 0.608,
+      "contrast-mask": 0.63,
+      "contrast-mask-verb": 0.634,
+      "contrast-wronglabel": 0.634,
+      "contrast-wronglabel-verb": 0.626,
+      "RL-only": 0.632,
+      "RL-only-verb": 0.63,
+      "Full-CRL": 0.6,
+      "Full-CRL-verb": 0.59
+    },
+    {
+      "seed": 46,
+      "MLE-only": 0.62,
+      "MLE-only-verb": 0.622,
+      "contrast-mask": 0.628,
+      "contrast-mask-verb": 0.624,
+      "contrast-wronglabel": 0.604,
+      "contrast-wronglabel-verb": 0.606,
+      "RL-only": 0.624,
+      "RL-only-verb": 0.616,
+      "Full-CRL": 0.63,
+      "Full-CRL-verb": 0.632
+    },
+    {
+      "seed": 47,
+      "MLE-only": 0.606,
+      "MLE-only-verb": 0.616,
+      "contrast-mask": 0.622,
+      "contrast-mask-verb": 0.612,
+      "contrast-wronglabel": 0.576,
+      "contrast-wronglabel-verb": 0.568,
+      "RL-only": 0.626,
+      "RL-only-verb": 0.618,
+      "Full-CRL": 0.63,
+      "Full-CRL-verb": 0.628
+    },
+    {
+      "seed": 48,
+      "MLE-only": 0.622,
+      "MLE-only-verb": 0.616,
+      "contrast-mask": 0.638,
+      "contrast-mask-verb": 0.632,
+      "contrast-wronglabel": 0.3,
+      "contrast-wronglabel-verb": 0.286,
+      "RL-only": 0.614,
+      "RL-only-verb": 0.626,
+      "Full-CRL": 0.63,
+      "Full-CRL-verb": 0.61
+    }
+  ],
+  "mean": {
+    "MLE-only": 0.6182857142857143,
+    "contrast-mask": 0.6277142857142858,
+    "contrast-wronglabel": 0.5688571428571428,
+    "RL-only": 0.6257142857142857,
+    "Full-CRL": 0.6191428571428571
+  },
+  "std": {
+    "MLE-only": 0.010333223611442937,
+    "contrast-mask": 0.007740695533796617,
+    "contrast-wronglabel": 0.11116452230998956,
+    "RL-only": 0.005993193418115157,
+    "Full-CRL": 0.011801072244607658
+  },
+  "article": {
+    "42": {
+      "accuracy": 0.596,
+      "verb_accuracy": 0.596
+    },
+    "43": {
+      "accuracy": 0.6,
+      "verb_accuracy": 0.604
+    },
+    "44": {
+      "accuracy": 0.062,
+      "verb_accuracy": 0.062
+    }
+  }
+}
